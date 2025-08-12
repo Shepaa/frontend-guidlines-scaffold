@@ -8,12 +8,17 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     Compute: typeof import('./../src/components/Compute.vue')['default']
+    DynamicCSS: typeof import('./../src/views/DynamicCSS/components/DynamicCSS.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElConfigProvider: typeof import('element-plus/es')['ElConfigProvider']
     ElDialog: typeof import('element-plus/es')['ElDialog']
     ElTabPane: typeof import('element-plus/es')['ElTabPane']
     ElTabs: typeof import('element-plus/es')['ElTabs']
+    LifecycleHooksChild: typeof import('./../src/views/LifecycleHooks/components/LifecycleHooksChild.vue')['default']
+    LifecycleHooksParent: typeof import('./../src/views/LifecycleHooks/components/LifecycleHooksParent.vue')['default']
     Modals: typeof import('./../src/components/Modals.vue')['default']
+    NextDomUpdateFlush: typeof import('./../src/views/NextDomUpdateFlush/components/NextDomUpdateFlush.vue')['default']
+    RefFamily: typeof import('./../src/views/refFamily/components/refFamily.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TabsNav: typeof import('./../src/components/TabsNav.vue')['default']

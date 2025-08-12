@@ -15,6 +15,21 @@ const routes: Array<RouteRecordRaw> = [
     path: '/lifecycleHooks',
     name: routeNames.lifecycleHooks,
     component: () => import('@/views/LifecycleHooks/components/LifecycleHooksParent.vue')
+  },
+  {
+    path: '/nextDomUpdateFlush',
+    name: routeNames.nextDomUpdateFlush,
+    component: () => import('@/views/NextDomUpdateFlush/components/NextDomUpdateFlush.vue')
+  },
+  {
+    path: '/dynamicCss',
+    name: routeNames.dynamicCss,
+    component: () => import('@/views/DynamicCSS/components/DynamicCSS.vue')
+  },
+  {
+    path: '/refFamily',
+    name: routeNames.refFamily,
+    component: () => import('@/views/refFamily/components/refFamily.vue')
   }
 ]
 

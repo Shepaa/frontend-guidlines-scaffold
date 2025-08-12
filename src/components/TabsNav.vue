@@ -16,7 +16,10 @@ import { routeNames } from '@/router/route-names'
 
 const tabs = [
   { name: routeNames.home, label: 'Home' },
-  { name: routeNames.lifecycleHooks, label: 'Lifecycle Hooks' }
+  { name: routeNames.lifecycleHooks, label: 'Lifecycle Hooks' },
+  { name: routeNames.nextDomUpdateFlush, label: 'next Dom Update Flush' },
+  { name: routeNames.dynamicCss, label: 'dynamicCss' },
+  { name: routeNames.refFamily, label: 'refFamily' }
 ] as const
 </script>
 
