@@ -14,7 +14,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/lifecycleHooks',
     name: routeNames.lifecycleHooks,
-    component: () => import('@/views/LifecycleHooks/components/LifecycleHooks.vue')
+    component: () => import('@/views/LifecycleHooks/components/LifecycleHooksParent.vue')
   }
 ]
 
