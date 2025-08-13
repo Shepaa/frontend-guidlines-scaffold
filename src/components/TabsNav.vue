@@ -19,7 +19,10 @@ const tabs = [
   { name: routeNames.lifecycleHooks, label: 'Lifecycle Hooks' },
   { name: routeNames.nextDomUpdateFlush, label: 'next Dom Update Flush' },
   { name: routeNames.dynamicCss, label: 'dynamicCss' },
-  { name: routeNames.refFamily, label: 'refFamily' }
+  { name: routeNames.refFamily, label: 'refFamily' },
+  { name: routeNames.preventEventPropagation, label: 'preventEventPropagation' },
+  { name: routeNames.losingReactivity, label: 'losingReactivity' },
+  { name: routeNames.propValidation, label: 'propValidation' }
 ] as const
 </script>
 

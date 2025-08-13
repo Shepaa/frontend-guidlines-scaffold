@@ -30,6 +30,21 @@ const routes: Array<RouteRecordRaw> = [
     path: '/refFamily',
     name: routeNames.refFamily,
     component: () => import('@/views/refFamily/components/refFamily.vue')
+  },
+  {
+    path: '/preventEventPropagation',
+    name: routeNames.preventEventPropagation,
+    component: () => import('@/views/preventEventPropagation/component/preventEventPropagation.vue')
+  },
+  {
+    path: '/losingReactivity',
+    name: routeNames.losingReactivity,
+    component: () => import('@/views/losingReactivity/components/LosingReactivity.vue')
+  },
+  {
+    path: '/propValidation',
+    name: routeNames.propValidation,
+    component: () => import('@/views/propValidation/propValidation/propValidation.vue')
   }
 ]
 

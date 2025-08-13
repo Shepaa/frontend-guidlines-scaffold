@@ -4,5 +4,8 @@ export const routeNames = {
   lifecycleHooks: 'lifecycleHooks',
   nextDomUpdateFlush: 'nextDomUpdateFlush',
   dynamicCss: 'dynamicCss',
-  refFamily: 'refFamily'
+  refFamily: 'refFamily',
+  preventEventPropagation: 'preventEventPropagation',
+  losingReactivity: 'losingReactivity',
+  propValidation: 'propValidation'
 }
