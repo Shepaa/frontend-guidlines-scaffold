@@ -45,6 +45,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/propValidation',
     name: routeNames.propValidation,
     component: () => import('@/views/propValidation/propValidation/propValidation.vue')
+  },
+  {
+    path: '/writibleComputed',
+    name: routeNames.writibleComputed,
+    component: () => import('@/views/writibleComputed/components/writibleComputed.vue')
   }
 ]
 

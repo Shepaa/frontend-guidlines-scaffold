@@ -22,7 +22,8 @@ const tabs = [
   { name: routeNames.refFamily, label: 'refFamily' },
   { name: routeNames.preventEventPropagation, label: 'preventEventPropagation' },
   { name: routeNames.losingReactivity, label: 'losingReactivity' },
-  { name: routeNames.propValidation, label: 'propValidation' }
+  { name: routeNames.propValidation, label: 'propValidation' },
+  { name: routeNames.writibleComputed, label: 'writibleComputed' }
 ] as const
 </script>
 

@@ -7,5 +7,6 @@ export const routeNames = {
   refFamily: 'refFamily',
   preventEventPropagation: 'preventEventPropagation',
   losingReactivity: 'losingReactivity',
-  propValidation: 'propValidation'
+  propValidation: 'propValidation',
+  writibleComputed: 'writibleComputed'
 }
