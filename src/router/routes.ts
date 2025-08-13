@@ -50,6 +50,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/writibleComputed',
     name: routeNames.writibleComputed,
     component: () => import('@/views/writibleComputed/components/writibleComputed.vue')
+  },
+  {
+    path: '/watchFamily',
+    name: routeNames.watchFamily,
+    component: () => import('@/views/watchFamily/components/WatchFamily.vue')
   }
 ]
 

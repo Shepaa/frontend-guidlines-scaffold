@@ -23,7 +23,8 @@ const tabs = [
   { name: routeNames.preventEventPropagation, label: 'preventEventPropagation' },
   { name: routeNames.losingReactivity, label: 'losingReactivity' },
   { name: routeNames.propValidation, label: 'propValidation' },
-  { name: routeNames.writibleComputed, label: 'writibleComputed' }
+  { name: routeNames.writibleComputed, label: 'writibleComputed' },
+  { name: routeNames.watchFamily, label: 'watchFamily' }
 ] as const
 </script>
 

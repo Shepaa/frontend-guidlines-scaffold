@@ -8,5 +8,6 @@ export const routeNames = {
   preventEventPropagation: 'preventEventPropagation',
   losingReactivity: 'losingReactivity',
   propValidation: 'propValidation',
-  writibleComputed: 'writibleComputed'
+  writibleComputed: 'writibleComputed',
+  watchFamily: 'watchFamily'
 }
