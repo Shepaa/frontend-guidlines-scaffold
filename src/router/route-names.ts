@@ -9,5 +9,8 @@ export const routeNames = {
   losingReactivity: 'losingReactivity',
   propValidation: 'propValidation',
   writibleComputed: 'writibleComputed',
-  watchFamily: 'watchFamily'
+  watchFamily: 'watchFamily',
+  shallowRef: 'shallowRef',
+  di: 'di',
+  myDirective: 'myDirective'
 }

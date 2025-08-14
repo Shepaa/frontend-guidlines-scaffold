@@ -24,7 +24,10 @@ const tabs = [
   { name: routeNames.losingReactivity, label: 'losingReactivity' },
   { name: routeNames.propValidation, label: 'propValidation' },
   { name: routeNames.writibleComputed, label: 'writibleComputed' },
-  { name: routeNames.watchFamily, label: 'watchFamily' }
+  { name: routeNames.watchFamily, label: 'watchFamily' },
+  { name: routeNames.shallowRef, label: 'shallowRef' },
+  { name: routeNames.di, label: 'di' },
+  { name: routeNames.myDirective, label: 'myDirective' }
 ] as const
 </script>
 
