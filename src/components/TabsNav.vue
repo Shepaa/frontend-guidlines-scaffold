@@ -28,7 +28,8 @@ const tabs = [
   { name: routeNames.shallowRef, label: 'shallowRef' },
   { name: routeNames.di, label: 'di' },
   { name: routeNames.myDirective, label: 'myDirective' },
-  { name: routeNames.customComposableUseToogle, label: 'customComposableUseToogle' }
+  { name: routeNames.customComposableUseToogle, label: 'customComposableUseToogle' },
+  { name: routeNames.untilFunc, label: 'untilFunc' }
 ] as const
 </script>
 

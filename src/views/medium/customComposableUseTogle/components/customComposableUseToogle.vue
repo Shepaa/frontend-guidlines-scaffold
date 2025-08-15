@@ -1,14 +1,5 @@
 <script setup lang='ts'>
-
-function useToggle (initialValue = false) {
-  const state = ref(initialValue)
-
-  const toggle = () => {
-    state.value = !state.value
-  }
-
-  return [state, toggle] as const
-}
+import { useToggle } from '@/views/medium/customComposableUseTogle/composable/useToggle.ts'
 
 const [state, toggle] = useToggle(false)
 

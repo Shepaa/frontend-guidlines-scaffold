@@ -13,5 +13,6 @@ export const routeNames = {
   shallowRef: 'shallowRef',
   di: 'di',
   myDirective: 'myDirective',
-  customComposableUseToogle: 'customComposableUseToogle'
+  customComposableUseToogle: 'customComposableUseToogle',
+  untilFunc: 'untilFunc'
 }
