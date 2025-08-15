@@ -14,5 +14,6 @@ export const routeNames = {
   di: 'di',
   myDirective: 'myDirective',
   customComposableUseToogle: 'customComposableUseToogle',
+  customComposableUseCounter: 'customComposableUseCounter',
   untilFunc: 'untilFunc'
 }

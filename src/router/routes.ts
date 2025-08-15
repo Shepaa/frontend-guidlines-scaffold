@@ -77,6 +77,11 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/medium/customComposableUseTogle/components/customComposableUseToogle.vue')
   },
   {
+    path: '/customComposableUseCounter',
+    name: routeNames.customComposableUseCounter,
+    component: () => import('@/views/medium/customComposableUseCounter/components/customComposableUseCounter.vue')
+  },
+  {
     path: '/untilFunc',
     name: routeNames.untilFunc,
     component: () => import('@/views/medium/untilFunc/components/untilFunc.vue')
