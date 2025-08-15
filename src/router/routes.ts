@@ -70,6 +70,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/myDirective',
     name: routeNames.myDirective,
     component: () => import('@/views/medium/directive/components/myDirective.vue')
+  },
+  {
+    path: '/customComposableUseToogle',
+    name: routeNames.customComposableUseToogle,
+    component: () => import('@/views/medium/customComposableUseTogle/components/customComposableUseToogle.vue')
   }
 ]
 

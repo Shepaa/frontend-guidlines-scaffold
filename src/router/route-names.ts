@@ -12,5 +12,6 @@ export const routeNames = {
   watchFamily: 'watchFamily',
   shallowRef: 'shallowRef',
   di: 'di',
-  myDirective: 'myDirective'
+  myDirective: 'myDirective',
+  customComposableUseToogle: 'customComposableUseToogle'
 }

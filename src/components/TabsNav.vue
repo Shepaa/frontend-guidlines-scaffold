@@ -27,7 +27,8 @@ const tabs = [
   { name: routeNames.watchFamily, label: 'watchFamily' },
   { name: routeNames.shallowRef, label: 'shallowRef' },
   { name: routeNames.di, label: 'di' },
-  { name: routeNames.myDirective, label: 'myDirective' }
+  { name: routeNames.myDirective, label: 'myDirective' },
+  { name: routeNames.customComposableUseToogle, label: 'customComposableUseToogle' }
 ] as const
 </script>
 
