@@ -32,7 +32,8 @@ const tabs = [
   { name: routeNames.untilFunc, label: 'untilFunc' },
   { name: routeNames.customComposableUseCounter, label: 'customComposableUseCounter' },
   { name: routeNames.useLocalStorage, label: 'useLocalStorage' },
-  { name: routeNames.customVFocusDeritive, label: 'customVFocusDeritive' }
+  { name: routeNames.customVFocusDeritive, label: 'customVFocusDeritive' },
+  { name: routeNames.customFunc, label: 'customFunc' }
 ] as const
 </script>
 

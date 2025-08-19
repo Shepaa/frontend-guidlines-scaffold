@@ -95,6 +95,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/customVFocusDeritive',
     name: routeNames.customVFocusDeritive,
     component: () => import('@/views/medium/customVFocudDirective/components/customVFocudDirective.vue')
+  },
+  {
+    path: '/customFunc',
+    name: routeNames.customFunc,
+    component: () => import('@/views/medium/customFuncComp/components/customFuncComp.vue')
   }
 ]
 
