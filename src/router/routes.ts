@@ -85,6 +85,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/untilFunc',
     name: routeNames.untilFunc,
     component: () => import('@/views/medium/untilFunc/components/untilFunc.vue')
+  },
+  {
+    path: '/useLocalStorage',
+    name: routeNames.useLocalStorage,
+    component: () => import('@/views/medium/useLocalStorage/components/testUseLocalStorage.vue')
+  },
+  {
+    path: '/customVFocusDeritive',
+    name: routeNames.customVFocusDeritive,
+    component: () => import('@/views/medium/customVFocudDirective/components/customVFocudDirective.vue')
   }
 ]
 

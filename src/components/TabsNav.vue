@@ -30,7 +30,9 @@ const tabs = [
   { name: routeNames.myDirective, label: 'myDirective' },
   { name: routeNames.customComposableUseToogle, label: 'customComposableUseToogle' },
   { name: routeNames.untilFunc, label: 'untilFunc' },
-  { name: routeNames.customComposableUseCounter, label: 'customComposableUseCounter' }
+  { name: routeNames.customComposableUseCounter, label: 'customComposableUseCounter' },
+  { name: routeNames.useLocalStorage, label: 'useLocalStorage' },
+  { name: routeNames.customVFocusDeritive, label: 'customVFocusDeritive' }
 ] as const
 </script>
 

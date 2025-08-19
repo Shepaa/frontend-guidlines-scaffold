@@ -15,5 +15,7 @@ export const routeNames = {
   myDirective: 'myDirective',
   customComposableUseToogle: 'customComposableUseToogle',
   customComposableUseCounter: 'customComposableUseCounter',
-  untilFunc: 'untilFunc'
+  untilFunc: 'untilFunc',
+  useLocalStorage: 'useLocalStorage',
+  customVFocusDeritive: 'customVFocusDeritive'
 }

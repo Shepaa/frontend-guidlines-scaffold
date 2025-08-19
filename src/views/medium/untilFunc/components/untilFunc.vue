@@ -1,12 +1,8 @@
 <script setup lang="ts">
 import { ref, watch } from 'vue'
 
-// Реактивное значение
 const count = ref(0)
 
-/**
- * Реализация until
- */
 function until (initial) {
   function toBe (expectedValue) {
     return new Promise((resolve) => {
