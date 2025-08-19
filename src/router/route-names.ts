@@ -17,5 +17,6 @@ export const routeNames = {
   customComposableUseCounter: 'customComposableUseCounter',
   untilFunc: 'untilFunc',
   useLocalStorage: 'useLocalStorage',
-  customVFocusDeritive: 'customVFocusDeritive'
+  customVFocusDeritive: 'customVFocusDeritive',
+  customDebounceClickDirective: 'customDebounceClickDirective'
 }

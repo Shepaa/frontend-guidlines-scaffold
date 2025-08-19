@@ -10,6 +10,7 @@ declare module 'vue' {
     Compute: typeof import('./../src/components/Compute.vue')['default']
     CustomComposableUseCounter: typeof import('./../src/views/medium/customComposableUseCounter/components/customComposableUseCounter.vue')['default']
     CustomComposableUseToogle: typeof import('./../src/views/medium/customComposableUseTogle/components/customComposableUseToogle.vue')['default']
+    CustomVFocudDirective: typeof import('./../src/views/medium/customVFocudDirective/components/customVFocudDirective.vue')['default']
     DI: typeof import('./../src/views/easy/DI/components/DI.vue')['default']
     DIParent: typeof import('./../src/views/easy/DI/components/DIParent.vue')['default']
     DynamicCSS: typeof import('./../src/views/easy/DynamicCSS/components/DynamicCSS.vue')['default']
