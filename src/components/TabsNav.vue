@@ -1,5 +1,5 @@
 <template>
-  <nav class="tabs-nav">
+  <nav class="tabs-nav" aria-label="Main navigation">
     <RouterLink
       v-for="tab in tabs"
       :key="tab.name"
@@ -22,33 +22,50 @@ const tabs = [
   { name: routeNames.refFamily, label: 'refFamily' },
   { name: routeNames.preventEventPropagation, label: 'preventEventPropagation' },
   { name: routeNames.losingReactivity, label: 'losingReactivity' },
-  { name: routeNames.propValidation, label: 'propValidation' }
+  { name: routeNames.propValidation, label: 'propValidation' },
+  { name: routeNames.writibleComputed, label: 'writibleComputed' },
+  { name: routeNames.watchFamily, label: 'watchFamily' },
+  { name: routeNames.shallowRef, label: 'shallowRef' },
+  { name: routeNames.di, label: 'di' },
+  { name: routeNames.myDirective, label: 'myDirective' },
+  { name: routeNames.customComposableUseToogle, label: 'customComposableUseToogle' },
+  { name: routeNames.untilFunc, label: 'untilFunc' },
+  { name: routeNames.customComposableUseCounter, label: 'customComposableUseCounter' },
+  { name: routeNames.useLocalStorage, label: 'useLocalStorage' },
+  { name: routeNames.customVFocusDeritive, label: 'customVFocusDeritive' }
 ] as const
 </script>
 
 <style scoped>
 .tabs-nav {
   display: flex;
-  gap: 8px;
-  padding: 12px;
-  border-bottom: 1px solid #e5e7eb;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 12px;
+  border-right: 1px solid #e5e7eb;
+  background: #f8fafc;
+  min-width: 220px;
+  max-width: 280px;
+  height: 100vh;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
 }
 .tab {
-  padding: 8px 12px;
-  border: 1px solid #e5e7eb;
-  border-bottom: none;
-  border-radius: 6px 6px 0 0;
+  padding: 10px 12px;
+  border-radius: 8px;
   color: #374151;
   text-decoration: none;
-  background: #f9fafb;
+  background: transparent;
+  transition: background-color .15s ease, color .15s ease, box-shadow .15s ease;
 }
 .tab:hover {
-  background: #fff;
+  background: #eef2ff;
 }
 .router-link-active.tab {
-  background: #fff;
+  background: #ffffff;
   color: #111827;
   font-weight: 600;
-  border-color: #cbd5e1;
+  box-shadow: inset 3px 0 0 0 #6366f1, 0 1px 2px rgba(0, 0, 0, 0.04);
 }
 </style>

@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 import { ref, provide } from 'vue'
-import LifecycleHooksChild from '@/views/LifecycleHooks/components/LifecycleHooksChild.vue'
+import LifecycleHooksChild from '@/views/easy/LifecycleHooks/components/LifecycleHooksChild.vue'
 
 const count = ref(0)
 const showChild = ref(true)

@@ -7,5 +7,15 @@ export const routeNames = {
   refFamily: 'refFamily',
   preventEventPropagation: 'preventEventPropagation',
   losingReactivity: 'losingReactivity',
-  propValidation: 'propValidation'
+  propValidation: 'propValidation',
+  writibleComputed: 'writibleComputed',
+  watchFamily: 'watchFamily',
+  shallowRef: 'shallowRef',
+  di: 'di',
+  myDirective: 'myDirective',
+  customComposableUseToogle: 'customComposableUseToogle',
+  customComposableUseCounter: 'customComposableUseCounter',
+  untilFunc: 'untilFunc',
+  useLocalStorage: 'useLocalStorage',
+  customVFocusDeritive: 'customVFocusDeritive'
 }

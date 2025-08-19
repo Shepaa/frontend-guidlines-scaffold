@@ -14,37 +14,87 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/lifecycleHooks',
     name: routeNames.lifecycleHooks,
-    component: () => import('@/views/LifecycleHooks/components/LifecycleHooksParent.vue')
+    component: () => import('@/views/easy/LifecycleHooks/components/LifecycleHooksParent.vue')
   },
   {
     path: '/nextDomUpdateFlush',
     name: routeNames.nextDomUpdateFlush,
-    component: () => import('@/views/NextDomUpdateFlush/components/NextDomUpdateFlush.vue')
+    component: () => import('@/views/easy/NextDomUpdateFlush/components/NextDomUpdateFlush.vue')
   },
   {
     path: '/dynamicCss',
     name: routeNames.dynamicCss,
-    component: () => import('@/views/DynamicCSS/components/DynamicCSS.vue')
+    component: () => import('@/views/easy/DynamicCSS/components/DynamicCSS.vue')
   },
   {
     path: '/refFamily',
     name: routeNames.refFamily,
-    component: () => import('@/views/refFamily/components/refFamily.vue')
+    component: () => import('@/views/easy/refFamily/components/refFamily.vue')
   },
   {
     path: '/preventEventPropagation',
     name: routeNames.preventEventPropagation,
-    component: () => import('@/views/preventEventPropagation/component/preventEventPropagation.vue')
+    component: () => import('@/views/easy/preventEventPropagation/component/preventEventPropagation.vue')
   },
   {
     path: '/losingReactivity',
     name: routeNames.losingReactivity,
-    component: () => import('@/views/losingReactivity/components/LosingReactivity.vue')
+    component: () => import('@/views/easy/losingReactivity/components/LosingReactivity.vue')
   },
   {
     path: '/propValidation',
     name: routeNames.propValidation,
-    component: () => import('@/views/propValidation/propValidation/propValidation.vue')
+    component: () => import('@/views/easy/propValidation/propValidation/propValidation.vue')
+  },
+  {
+    path: '/writibleComputed',
+    name: routeNames.writibleComputed,
+    component: () => import('@/views/easy/writibleComputed/components/writibleComputed.vue')
+  },
+  {
+    path: '/watchFamily',
+    name: routeNames.watchFamily,
+    component: () => import('@/views/easy/watchFamily/components/WatchFamily.vue')
+  },
+  {
+    path: '/shallowRef',
+    name: routeNames.shallowRef,
+    component: () => import('@/views/easy/shallowRef/components/shallowRef.vue')
+  },
+  {
+    path: '/di',
+    name: routeNames.di,
+    component: () => import('@/views/easy/DI/components/DIParent.vue')
+  },
+  {
+    path: '/myDirective',
+    name: routeNames.myDirective,
+    component: () => import('@/views/medium/directive/components/myDirective.vue')
+  },
+  {
+    path: '/customComposableUseToogle',
+    name: routeNames.customComposableUseToogle,
+    component: () => import('@/views/medium/customComposableUseTogle/components/customComposableUseToogle.vue')
+  },
+  {
+    path: '/customComposableUseCounter',
+    name: routeNames.customComposableUseCounter,
+    component: () => import('@/views/medium/customComposableUseCounter/components/customComposableUseCounter.vue')
+  },
+  {
+    path: '/untilFunc',
+    name: routeNames.untilFunc,
+    component: () => import('@/views/medium/untilFunc/components/untilFunc.vue')
+  },
+  {
+    path: '/useLocalStorage',
+    name: routeNames.useLocalStorage,
+    component: () => import('@/views/medium/useLocalStorage/components/testUseLocalStorage.vue')
+  },
+  {
+    path: '/customVFocusDeritive',
+    name: routeNames.customVFocusDeritive,
+    component: () => import('@/views/medium/customVFocudDirective/components/customVFocudDirective.vue')
   }
 ]
 
